@@ -4,13 +4,13 @@
 
 <body>
 <table style=width:100%>
-  {{#each results}}
-    <tr>{{> result}}</tr>
+  {{#each coins}}
+    <tr>{{> coin}}</tr>
   {{/each}}
 </table>
 </body>
 
-<template name="result">
+<template name="coin">
     <td>{{name}}</td>
     <td>{{price_usd}}</td>
 </template>

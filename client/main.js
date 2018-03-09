@@ -9,7 +9,7 @@ Template.body.onCreated(function helloOnCreated() {
 });
 
 Template.body.helpers({
-  results() {
+  coins() {
     return Coins.find();
   },
 });
