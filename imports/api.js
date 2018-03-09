@@ -7,8 +7,6 @@ if (Meteor.isServer) {
 	function pollTicker(){
 		var ticker = HTTP.get('https://api.coinmarketcap.com/v1/ticker/?limit=10').data;
 		for (var i = 0; i < ticker.length; i++) {
-			console.log(ticker[i].id);
-			console.log(ticker[i].price_usd);
 			Coins.upsert(ticker[i].id,
 				{
 				// Modifier
