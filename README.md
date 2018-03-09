@@ -8,6 +8,6 @@ before
 `meteor`
 
 ## TODO
-*Take out autopublish and insecure and set up real publications and subscriptions
-*Format display so it's better
-*Expand collection data to include more fields, start showing data over time
+* Take out autopublish and insecure and set up real publications and subscriptions
+* Format display so it's better
+* Expand collection data to include more fields, start showing data over time
