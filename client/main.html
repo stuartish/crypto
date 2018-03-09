@@ -1,0 +1,16 @@
+<head>
+  <title>crypto</title>
+</head>
+
+<body>
+<table style=width:100%>
+  {{#each results}}
+    <tr>{{> result}}</tr>
+  {{/each}}
+</table>
+</body>
+
+<template name="result">
+    <td>{{name}}</td>
+    <td>{{price_usd}}</td>
+</template>
